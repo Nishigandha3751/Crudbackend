@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e2f; /* Dark background color */
+  color: #f5f5f5; /* Light text color */
+}
+
+/* App container styling */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Content wrapper */
+.content-wrapper {
+  flex: 1;
+  padding: 1rem; /* Add some spacing around the content */
+}
+
+/* Remove Bootstrap's card box-shadow and background */
+.card {
+  background-color: transparent !important;
+  border: none !important;
+  color: #f5f5f5;
+}
+
+/* Buttons */
+button {
+  font-size: 0.9rem;
+}
+
+button.btn-link {
+  color: #007bff; /* Default Bootstrap link color */
+  text-decoration: none;
+  padding: 0;
+}
+
+button.btn-link:hover {
+  color: #0056b3; /* Darker hover color */
+  text-decoration: underline;
+}
+
+/* Navbar styling */
+.navbar {
+  margin-bottom: 1rem;
+}
+
+/* Remove the white box from modal inputs */
+.modal-content {
+  background-color: #2a2a3d !important;
+  color: #ffffff !important;
+}
+
+.form-control {
+  background-color: #3a3a4f !important;
+  color: #ffffff !important;
+  border: 1px solid #565673 !important;
+}
+
+.form-control:focus {
+  background-color: #444457 !important;
+  border-color: #7171a3 !important;
+  color: #ffffff !important;
+}

@@ -1,0 +1,54 @@
+.container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.card-text {
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.button-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.blog-detail {
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-detail h2 {
+    color: #333;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-title {
+    font-weight: 600;
+}

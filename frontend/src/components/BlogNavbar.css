@@ -1,0 +1,32 @@
+/* Navbar background and brand styling */
+.navbar {
+    background-color: #343a40; /* A dark grey shade for the navbar */
+    border-bottom: 2px solid #ffc107; /* Adds a subtle yellow border for contrast */
+}
+
+.navbar-brand {
+    color: #ffc107; /* Yellow color for the brand name */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #ffdd57; /* Slightly lighter yellow for hover effect */
+    text-decoration: none;
+}
+
+/* Button styling */
+.add-blog-button {
+    color: #fff;
+    background-color: #28a745; /* A vibrant green shade */
+    border: 1px solid #28a745;
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-blog-button:hover {
+    background-color: #218838; /* Darker green for hover effect */
+    border-color: #218838;
+    color: #fff;
+}
